@@ -21,7 +21,7 @@ class Action:
     @staticmethod
     def delete(**kwargs: Dict[str, Any]) -> Dict[str, Any]:
         repository = kwargs.get('repositoryName', kwargs.get('RepositoryName', kwargs.get('repository_name')))
-        client = boto3.client('ecs')
+        client = boto3.client('ecr')
         iterations_left = 100
 
         logger.info(f'Deleting all images for repository {repository}...')

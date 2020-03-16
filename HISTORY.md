@@ -1,5 +1,8 @@
 # Release history
 
+#### 1.0.2
+Use ECR API instead of ECS API.
+
 #### 1.0.1
 Delete README copied info.
 
