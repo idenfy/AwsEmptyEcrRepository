@@ -8,7 +8,7 @@ with open('HISTORY.md') as history_file:
 
 setup(
     name='aws_empty_ecr_repository',
-    version='1.1.0',
+    version='1.2.0',
     license='GNU GENERAL PUBLIC LICENSE Version 3',
     packages=find_packages(exclude=['venv', 'test']),
     description=(
@@ -18,11 +18,11 @@ setup(
     long_description_content_type="text/markdown",
     include_package_data=True,
     install_requires=[
-        'aws_cdk.core>=1.44.0,<1.50.0',
-        'aws_cdk.aws_cloudformation>=1.44.0,<1.50.0',
-        'aws_cdk.aws_iam>=1.44.0,<1.50.0',
-        'aws_cdk.aws_lambda>=1.44.0,<1.50.0',
-        'aws_cdk.aws_ecr>=1.44.0,<1.50.0',
+        'aws_cdk.core>=1.60.0,<2.0.0',
+        'aws_cdk.aws_cloudformation>=1.60.0,<2.0.0',
+        'aws_cdk.aws_iam>=1.60.0,<2.0.0',
+        'aws_cdk.aws_lambda>=1.60.0,<2.0.0',
+        'aws_cdk.aws_ecr>=1.60.0,<2.0.0',
     ],
     author='Laimonas Sutkus',
     author_email='laimonas@idenfy.com, laimonas.sutkus@gmail.com',
