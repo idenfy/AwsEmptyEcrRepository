@@ -1,5 +1,8 @@
 # Release history
 
+#### 1.3.0
+Add md files.
+
 #### 1.2.0
 Force dependency update to 1.60.0 and add upper bound 2.0.0.
 
